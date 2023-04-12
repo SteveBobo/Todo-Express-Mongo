@@ -1,0 +1,27 @@
+{
+  "name": "todo-express-mongo",
+  "version": "1.0.0",
+  "description": "Todo list app built with Express.js and MongoDB",
+  "authors": [
+    "Steven Bobo"
+  ],
+  "scripts": {
+    "start": "nodemon --exec node server.js"
+  },
+  "babel": {
+    "presets": [
+      "env",
+      "react"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SteveBobo/Todo-Express-Mongo"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "mongoose": "^5.4.18",
+    "nodemon": "^1.11.0"
+  }
+}
